@@ -9,14 +9,14 @@ It has been modified for use in GNU/Linux environments and uses `gnome-screensho
  - Assigns a random name to the image
  - scp using authorised key to remote web server
  - Copies sharable URL to clipboard
- - Produces `notify-send` desktop notification when complete/failed
+ - Produces `notify-send` desktop notification when completed or failed
 
 ### Usage
 
 #### Server
 
 - Create a user with access to the web server folder
-- Install [rssh](http://www.pizzashack.org/rssh/) to restrict user to scp\sftp only
+- Install [rssh](http://www.pizzashack.org/rssh/) to restrict user to scp/sftp only
 - Configure a new SSH authorised key-pair for that user
 
 #### Client
@@ -26,7 +26,7 @@ It has been modified for use in GNU/Linux environments and uses `gnome-screensho
 
 ###### Command Line Switches
 ```
--a produces an area screen grab
--w produces a window screen grab
+-a produces an interactive area selection screen grab
+-w produces a screen grab of the current window (after 2s)
 ```
 

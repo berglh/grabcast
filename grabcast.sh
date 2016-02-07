@@ -3,7 +3,7 @@
 # grabcast makes sharing screenshots with collaborators easy
 
 # Trigger me with a shortcut key
-# bash -c "grabcast.sh -w/a"
+# bash -c "grabcast.sh w|a"
 # a for area selection mode, w for window mode
 
 # Script uploads screengrabs made with gnome-screenshot with random names
@@ -20,7 +20,7 @@ KEY="$HOME/.ssh/id_rsa"
 USER="upload-user"
 # Remote folder of accesible webserver
 REMOTEDIR="/var/www/folder"
-# Protocol to use view final URL (https/http)
+# Protocol to use for viewing final URL (https/http)
 PROTOCOL="https"
 MODE=$1
 # If the screenshot option is invalid, exit

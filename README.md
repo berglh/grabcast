@@ -24,9 +24,9 @@ It has been modified for use in GNU/Linux environments and requries `gnome-scree
 - Set the server name, user, authorised key in the script
 - Use keyboard settings to configure hot-key launching i.e.` super+shift+a|w`
 
-###### Command Line Switches
+###### Command Line Arguments
 ```
--a produces an interactive area selection screen grab
--w produces a screen grab of the current window (after 2s)
+grabcast a    [produces an interactive area selection screen grab]
+grabcast w    [produces a screen grab of the current window (after 2s)]
 ```
 
